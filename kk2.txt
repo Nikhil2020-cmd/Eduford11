@@ -1,0 +1,9 @@
+3048 l
+2438.4 b
+
+
+
+gem uploded
+l- 3048.1
+b-2438.1
+bord thickness-2.9

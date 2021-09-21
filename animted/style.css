@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.Hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(30, 38, 38, 0.5),rgba(0,0,0,0.5)),url(2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+
+
+}
+.header{
+    width: 85%;
+    margin: 28px auto 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 20px;
+    cursor: pointer;
+}
+.title{
+    width: 60%;
+    margin: 200px auto 0;
+    color: #fff;
+}
+
+h1{
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+button{
+    width: 180px;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #fff;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    text-align: -30px;
+    display: inline;
+    transform: translateX(-60%);
+    
+
+}
+
+.font{
+    height: 335px;
+    width: 60px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: 50PX;
+    transform: translateY(-50%);
+
+}
+
+.icon-box{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px auto;
+
+}
+
+.side-text{
+    min-width: 160px;
+    height: 100%;
+    background: #009688;
+    margin-right: 5px;
+    line-height: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+}
+
+.icon{
+    min-width: 50px;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.icon .fa fa-coffee{
+    font-size: 20%;
+    color: #009688;
+    line-height: 50px;
+
+}

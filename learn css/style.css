@@ -1,0 +1,12 @@
+#box{
+    width: 150px;
+    height: 150px;
+    color: aqua;
+    transition-property: width,height;
+    transition-duration: 2ms;
+
+}
+#box:hover{
+    width: 90%;
+    height: 90%;
+}
